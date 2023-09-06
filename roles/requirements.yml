@@ -2,14 +2,14 @@ roles:
   - src: https://github.com/akash22/netscaler_lb_vip_mgmt.git
     scm: git
     name: netscaler_lb_vip_mgmt
-    version: origin/master
+    version: origin/main
 
   - src:https://github.com/akash22/netscaler_lb_service_mgmt.git
     scm: git
     name: netscaler_lb_service_mgmt
-    version: origin/master
+    version: origin/main
 
   - src: https://github.com/akash22/netscaler_lb_weight_change_mgmt.git
     scm: git
     name: netscaler_lb_weight_change_mgmt
-    version: origin/master
+    version: origin/main
