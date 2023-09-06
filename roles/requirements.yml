@@ -4,9 +4,6 @@ roles:
     name: netscaler_lb_vip_mgmt
     version: origin/main
 
-collections:
-    - citrix.adc
-
 #  - src:https://github.com/akash22/netscaler_lb_service_mgmt.git
 #    scm: git
 #    name: netscaler_lb_service_mgmt
