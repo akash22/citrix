@@ -1,0 +1,9 @@
+---
+- hosts: citrix
+  remote_user: root
+  gather_facts: False
+  collections:
+    - citrix.adc
+  roles:
+    - netscaler_lb_vip_mgmt
+
