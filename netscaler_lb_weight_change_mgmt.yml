@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  remote_user: root
+  gather_facts: False
+#  collections:
+#    - citrix.adc
+  roles:
+    - netscaler_lb_weight_change_mgmt
